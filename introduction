@@ -1,0 +1,36 @@
+
+<html>
+  <body>
+    <h1>Introduction</h1>
+    
+   <p>The most important programming concepts to focus upon in your skills development effort are the issues listed below. 
+    It is essential to have a deep familiarity with all of these - and strong competence in those that are most appealing 
+    to your interests, relevant to the programming sector you would like to perform in, and in which you can realize a high
+    level of competence and expertise.</p>
+    <p> 1. Data structures: the format for the organization of data and management of the storage  to allow sufficient 
+    access (retreival) and modification. The data structure is the collection of data values, the relationships between 
+    them and the functions or operations that can be applied to them. General data structure types include the array, 
+    the file, the record, the table, the tree, and so on. Any data structure is designed to organize data to suit a specific
+    purpose so that it can be accessed and worked with in appropriate ways.</p> 
+   <p>2.	Designing w/Object Oriented Programming: the process of planning a system of interaction objects for the purpose
+   of solving a software problem. It entails the application of software design rules to the data and logic of objects 
+   during the development life cycle of the software. Object Oriented Programming provides the programmer with natural way
+   to divide an application into small reusable pieces, called objects. At the same time, OOP provides an elegant way to 
+   construct applications in more efficient ways by building up from a collection of reusable components.|</p>
+   <p> 3.	Multi-threading: the ability of a central processing uint of a CPU to execute multiple processes or threads 
+   concurrently, supported by the operating system. This concurrent execution allows for more than one user at a time and 
+   even the management of multiple simultaneous requests by the same user. These thread share the process resources but are 
+   able to execute independently. </p>
+	 <p>4.	Programming concepts:</p>
+	    <p>1.	Recursion: a method of solving a problem where the solution depends on solutions to smaller instances of the 
+      same problem. It means defining a problem in terms of itself. Recursive algorithms break down problems into smaller 
+      pieces which are already known, or can be solved piecemeal, and then all in total.</p> 
+	    <p>2.	Divide and Conquer: an algorithm design paradigm based on a multi-branched recursion. A divine and conquer 
+      algorithm works recursively breaking down a problem into two or more sub-problems of the same or related types until 
+      these become simple enough to be solved directly.</p> 
+	    <p>3.	Prototype: an early sample, model, or release of a product build to test a concept or process or to act as a 
+      thing to be replicated or leaned from.</p>
+   </body>
+</html>
+
+ 
