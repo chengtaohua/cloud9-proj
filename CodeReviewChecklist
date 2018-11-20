@@ -1,0 +1,31 @@
+<h3>Code Review Checklist</h3>
+
+<h4>1.Highlight issues in the code</h4>
+<p> Highlight the issue in the existing code and its consequences.</p>
+
+<h4>2.Explain relevant principles</h4>
+<p> Separation of Concerns, Single Responsibility Principle, Open-Closed principle, Cyclomatic complexity.</p>
+
+<h4>3. Discuss relevant quotes</h4>
+<p> To make the process more interesting and engrossing, remind developers revlevant quotes/proverbs.</p>
+
+<h4>4. Do few things offline</h4>
+<p> Share the links of relevant websites or encourage developers to research on the internet by providing keywords during the code review process.</p>
+
+<h4>5. Consider as an opportunity to learn best practices</h4>
+<p> Code review should be done in a competitive spirit to find more useful comments.</p>
+
+<h4>6. Always be patient and relook if required</h4>
+<p> Compare developer’s approach and code reviewer’s approach to choose the right approach.</p>
+
+<h4>7. Explain the need for best coding practices</h4>
+<p> Explain the importance of code refactoring and the need for allocating additional time to plan the project.</p>
+
+<h4>8. Consult second level code reviewer</h4>
+<p> If the developer is not convinced, it is all right to consult a second level code reviewer.</p>
+
+<h4>9. Capture the enhancements and technical debt</h4>
+<p> A code reviewer should ensure that all accepted recommendations are clearly documented in a shared code review document for the future reference.</p>
+
+<h4>10. Document all code review comments</h4>
+<p> Document all code review comments in an email, word document, excel, or any standard tool used by the organization.</p>
