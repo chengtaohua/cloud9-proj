@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('nav.css');
+
+::selection {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+html, body {
+    font-family: 'VT323', monospace;
+    font-weight: normal;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    color: white;
+    background-color: black;
+    hyphens: auto;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+body {
+    color: white;
+    background-color: black;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.75em;
+    color: yellow;
+    text-shadow: 5px 5px 0 red;
+    background-color: rgb(0, 40, 184);
+    width: auto;
+    padding: 1em;
+}
+
+header h1, header h1:hover {
+    color: yellow;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#how-to-grow, #road-to-mastery, #code-review {
+    display: none;
+}
+
+.content {
+    display: block;
+    clear: both;
+    animation: fade-in 0.75s;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+section {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.65em;
+    font-weight: normal;
+    padding: 0em 10em 1em 1.5em;
+    line-height: 1em;
+}
+
+section .subtitle {
+    color: yellow;
+}
+
+article {
+    display: block;
+    float: left;
+    width: 60%;
+    padding-left: 1.5em;
+}
+
+article h2 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7em;
+    margin-top: 1.5em;
+    font-weight: normal;
+    color: lime;
+    border-bottom: 3px solid lime;
+}
+
+article em {
+    font-style: normal;
+    background-color: green;
+    color: white;
+}
+
+article .code {
+    color: black;
+    background-color: lightgray;
+    font-size: 1em;
+    line-height: 1em;
+    
+}
+
+aside {
+    word-wrap: break-word;
+    hyphens: none;
+    display: block;
+    float: right;
+    font-style: normal;
+    font-size: 0.8em;
+    width: 30%;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+}
+
+aside h2 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: yellow;
+    border-bottom: 7px solid yellow;
+}
+
+aside li {
+    text-indent: -2em;
+    padding-bottom: 1em;
+    list-style: none;
+}
+
+footer, footer p {
+    clear: both;
+    padding-top: 2em;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+    text-align: center;
+    color: yellow;
+}
+
+/* TABLET */
+@media all and (max-width:900px) {
+    body {
+        width: 100% !important;
+    }
+    
+    header {
+        font-size: 0.75em;
+    }
+    
+    header .subtitle {
+        display: none;
+    }
+    
+    section {
+        padding: 1em;
+    }
+    
+    article {
+        float: none;
+        padding: 1em;
+        width: 90%;
+    }
+    
+    aside {
+        float: none;
+        width: 90%;
+        padding: 1em;
+        border: none;
+    }
+    
+}
+
+
+.box{ 
+    height: auto;
+    width: 100%; 
+    border: 10px solid yellow; 
+    position: relative; 
+}
+
+.box_content{ 
+    display: block; 
+    padding: 25px; 
+    overflow: hidden; 
+}
+
+.corner{ 
+    width: 15px; 
+    position: absolute; 
+    z-index: 9; 
+}
+
+.tl{ 
+    top: -10px; 
+    left: -10px; 
+}
+
+.tr{ 
+    top: -10px; 
+    right: -10px; 
+}
+
+.bl{ 
+    bottom: -10px; 
+    left: -10px; 
+}
+
+.br{ 
+    bottom: -10px; 
+    right: -10px; 
+}
+
+.corner .a{ 
+    width: 5px; 
+    height: 10px; 
+    float: left; 
+    display: block; 
+    background: #000000; 
+}
+
+.corner .b{ 
+    width: 5px; 
+    height: 5px; 
+    float: left; 
+    display: block; 
+    background: #000000; 
+}
+
+.corner .c{ 
+    width: 10px; 
+    height: 10px; 
+    float: left; 
+    display: block; 
+    background: yellow; 
+}
+
+.tr .a, .tr .b, .tr .c, .br .a, .br .b, .br .c{ 
+    float: right; 
+}
+
+.bl .a, .br .a{ 
+    border-top: 5px solid yellow; 
+}
+
+.br::after{
+    clear: both;
+}
+
+
+/* https://www.daddydesign.com/wordpress/how-to-make-digital-8-bit-style-corners-using-only-css/ */

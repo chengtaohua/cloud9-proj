@@ -1,0 +1,85 @@
+/* Code from http://cssmenumaker.com/menu/simple-responsive-menu */
+
+nav {
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 2em;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    display: block;
+    zoom: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.5em;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li a:hover:before {
+    width: 100%;
+}
+
+nav ul li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: black;
+    -webkit-transition: width .25s;
+    -moz-transition: width .25s;
+    -ms-transition: width .25s;
+    -o-transition: width .25s;
+    transition: width .25s;
+}
+
+nav ul li.active a {
+    color: black;
+    background-color: yellow;
+}
+nav ul li.active a:before {
+    width: 100%;
+}
+
+
+@media all and (max-width: 700px) {
+    nav ul li {
+        float: none;
+        display: block;
+    }
+    
+    nav ul li a {
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
