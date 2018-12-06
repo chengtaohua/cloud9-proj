@@ -108,6 +108,8 @@
                 <h2>Data structures</h2>
                 <p><em>The format for the organization of data and management of the storage to allow sufficient access (retreival) and modification.</em></p>
                 <p>The data structure is the collection of data values, the relationships between them and the functions or operations that can be applied to them. General data structure types include the array, the file, the record, the table, the tree, and so on. Any data structure is designed to organize data to suit a specific purpose so that it can be accessed and worked with in appropriate ways.</p>
+                <p>See below for examples of two most common data structures, as implemented in JavaScript:</p>
+                <script src="https://gist.github.com/chengtaohua/def4ce33734dbd5d254016e979cdbb24.js"></script>
                 
                 <h2>Designing with object-oriented programming (OOP)</h2>
                 <p><em>The process of planning a system of interaction objects for the purpose of solving a software problem.</em></p>
@@ -121,27 +123,8 @@
                 <p><em>A method of solving a problem where the solution depends on solutions to smaller instances of the same problem.</em></p>
                 <p>It means defining a problem in terms of itself. Recursive algorithms break down problems into smaller pieces which are already known, or can be solved piecemeal, and then all in total.</p>
                 <p>To give you an example, let's look at the following code in JavaScript:</p>
-                <p class="code">
-                    function factorial(x) {<br>
-                        &ensp;if (x &lt; 0) {<br>
-                        &ensp;&ensp;return 0;<br>
-                        &ensp;} else if (x == 0) {<br>
-                        &ensp;&ensp;return 1;<br>
-                        &ensp;} else {<br>
-                        &ensp;&ensp;return x * factorial(x - 1);<br>
-                        &ensp;}<br>
-                        }
-                </p>
-                <p>This is a function that calculates a number's factorial. For instance, the factorial of 5 is 120, because 5*4*3*2*1=120. From this code, we can see that its recursive logic makes your computer do the following:</p>
-                <p class="code">
-                    factorial(5) =<br>
-                    &ensp;5 * factorial(4) =<br>
-                    &ensp;&ensp;5 * 4 * factorial(3) =<br>
-                    &ensp;&ensp;&ensp;5 * 4 * 3 * factorial(2) =<br>
-                    &ensp;&ensp;&ensp;&ensp;5 * 4 * 3 * 2 * factorial(1) =<br>
-                    &ensp;&ensp;&ensp;&ensp;&ensp;5 * 4 * 3 * 2 * 1 =<br>
-                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;120<br>
-                </p>
+                <script src="https://gist.github.com/chengtaohua/0f0e5ad8671a5b94889a50519673fa5b.js"></script>
+                <p>This is a function that calculates a number's factorial. For instance, the factorial of 5 is 120, because 5*4*3*2*1=120. From this code, we can see that its recursive logic makes your computer do the calculations above.</p>
                 
                 <h2>Divide-and-conquer</h2>
                 <p><em>An algorithm design paradigm based on a multi-branched recursion.</em></p>

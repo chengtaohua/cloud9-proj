@@ -182,6 +182,7 @@ footer, footer p {
 }
 
 
+/* Code from https://www.daddydesign.com/wordpress/how-to-make-digital-8-bit-style-corners-using-only-css/ */
 .box{ 
     height: auto;
     width: 100%; 
@@ -256,6 +257,3 @@ footer, footer p {
 .br::after{
     clear: both;
 }
-
-
-/* https://www.daddydesign.com/wordpress/how-to-make-digital-8-bit-style-corners-using-only-css/ */
